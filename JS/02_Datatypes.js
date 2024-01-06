@@ -1,6 +1,6 @@
 "use strict"; //treat all js code as newer ajs
 
-alert(3 + 2); //we are using node js not browser
+// alert(3 + 2); //we are using node js not browser
 
 console.log(3 + 
     3);
@@ -22,4 +22,8 @@ let isLogin = true;
 //symbol ==>uniqueness
 
 //object
-console.log("typeOf");
+console.log(typeof age);
+console.log(typeof null); //object
+console.log(typeof undefined); //undefined
+
+
