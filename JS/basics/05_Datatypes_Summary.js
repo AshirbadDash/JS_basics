@@ -52,3 +52,32 @@ Object -->implementation definde may not be undefined,boolean,number,string
 // all non-primitive return type is object
 
 //object return type is function
+
+
+
+/* ************************ MEMORY ****************** */
+
+//stack --all primitive type(copy is returned)
+
+//heap --all non-primitive type(reference of original value is returned)
+
+
+let myYoutubename="ashirbad"
+
+let anotherName=myYoutubename
+anotherName="ash"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne={
+    name:"ash",
+    id:1,
+    email:"ash@gmail.com"
+}
+
+let userTwo=userOne
+
+userTwo.id=2
+
+console.log(userOne) //original value is changed
