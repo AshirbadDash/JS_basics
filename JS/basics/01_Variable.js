@@ -17,7 +17,7 @@ console.log(accountPassword);
 
 var accountCity = "m";
 
-accountCity = "Bengaluru";
+var accountCity = "Bengaluru";
 
 let accountState = "karnataka";
 
@@ -38,3 +38,4 @@ console.table([
 ]);
 
 console.log(accountId);
+

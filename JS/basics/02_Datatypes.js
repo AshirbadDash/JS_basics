@@ -11,6 +11,7 @@ let name = "Ash";
 let age = 18;
 let isLogin = true;
 
+
 //primitive
 
 //number ==>2 to power 53
@@ -21,9 +22,10 @@ let isLogin = true;
 //undefined ==>not initialized
 //symbol ==>uniqueness
 
+
 //object
-console.log(typeof age);
-console.log(typeof null); //object
+console.log(typeof age); //tells the type 
+console.log(typeof null); //object 
 console.log(typeof undefined); //undefined
 
 

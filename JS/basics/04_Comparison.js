@@ -5,7 +5,7 @@
 // console.log(2!=1);
 
 console.log("2" > 1); //comparison will convert to number
-console.log("02" > 1); //comparison is not predictable we should compare same
+console.log("02" > 1); //comparison is not predictable we should compar same
 //  datatypes
 
 console.log(null > 0);

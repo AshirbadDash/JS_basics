@@ -9,9 +9,10 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`) //Stri
 const gameName = new String('ashirbad-dash')
 
 console.log(gameName[0]); 
-console.log(gameName.__proto__); 
+console.log(gameName.__proto__);  //to see the object
 
 //String is an object
+
 
 console.log(gameName.length);
 console.log(gameName.toUpperCase);
@@ -21,7 +22,13 @@ console.log(gameName.indexOf('d'));
 const newString =gameName.substring(0,2)
 console.log(newString);
 
-const anotherName =gameName.slice(-8,4)
+const anotherName =gameName.slice(-8,4) //giving negative value will start it from reverse can be used only in slice
+
+gameName.trim();
+
+
+
+
 
 
 
