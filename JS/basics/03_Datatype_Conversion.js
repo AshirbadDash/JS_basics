@@ -1,15 +1,19 @@
 let score = null;
 
 console.log(typeof score); //Object
-console.log(typeof score); //Object
+console.log(typeof (score)); //Object
 
-let valueInNumber = Number(score); //capital format of datatypes
 let input = "33";
+let valueInNumber = Number(score); //capital format of datatypes(class based)
+
 /*
+null==>0
 number "33"==>33
-"33abc"==>nan
+"33abc"==>Nan
 true ==>1; false=0
 */
+//typeOf nan==>number
+
 console.log(typeof valueInNumber); //number
 console.log(valueInNumber); //0
 
@@ -50,13 +54,13 @@ console.log(1 + 1 + "2");
 
 // console.log((3+4)*2)
 
-console.log(+true);
-console.log(+"");
+console.log(+true); // the unary + operator can be used to convert a string to a number
+console.log(+"");//0
 
 let num1, num2, num3;
 
 num1 = num2 = num3 = 2 + 2;
 
 let gameCounter = 100;
-++gameCounter;
+++gameCounter; //PRE UNCREMENT 
 console.log(gameCounter);
