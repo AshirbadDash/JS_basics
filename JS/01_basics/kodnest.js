@@ -36,6 +36,7 @@ employee.sleeping();
 console.log(
   `the id of the employee is  ${employee.id} and the age of the employee is ${employee.age} and the contact number of the employee is ${employee.contactNumber}  and the company where the employee is working is ${employee.company}`
 );
+le
 
 let employee1={
     name:"jogi",
