@@ -1,2 +1,0 @@
-# JS_basics
-js
