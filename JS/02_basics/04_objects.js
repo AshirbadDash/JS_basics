@@ -69,3 +69,18 @@ console.log(Object.entries(tinderUser)); //returns an array of arrays of key val
 // console.log(Object.entries(tinderUser)[0][1]); //returns the value of the first key
 
 console.log(tinderUser.hasOwnProperty("id")); //returns true if the object has the key
+
+
+const course ={
+    courseName:"js",
+    price:999,
+    courseInstructor:"hitesh"
+}
+
+//course.courseName
+
+const{courseInstructor:instructor}=course //destructuring the object
+
+console.log(courseInstructor); //hitesh
+
+navbar(company )==>
