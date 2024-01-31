@@ -11,21 +11,22 @@ let name = "Ash";
 let age = 18;
 let isLogin = true;
 
-
 //primitive
 
 //number ==>2 to power 53
-//bigint ==>big numbers
-//string ==>" " /' ' prefer " "
+//bigint ==>big numbers denoted by n
+//string ==>" " /' ' prefer " "  //unicode character set  
 // Boolean ==>true /false
 // null ==>standalone value(empty)
 //undefined ==>not initialized
 //symbol ==>uniqueness
 
 
-//object
+//non primitive
 console.log(typeof age); //tells the type 
 console.log(typeof null); //object 
 console.log(typeof undefined); //undefined
+
+
 
 

@@ -1,19 +1,30 @@
-console.log("Hello world");
-const accountId = 1;
+console.log("Hello world"); 
+const accountId = 1; 
+console.log(accountId); // 1
+
+// accountId = 2; // TypeError: Assignment to constant variable.
 // accountId=2 const is constant value and cannot be changed
 console.log(accountId);
 
 let accountEmail = "ashirbadash2000@gmail.com"; //LET IS BLOCK SCOPE
+console.log(accountEmail); //ashirbadash2000@gmail
 
-accountEmail = "ash@gmail.com";
+// let accountEmail = "ash@gmail .com"; //SyntaxError: Identifier 'accountEmail' has already been declared
+accountEmail = "ash@gmail .com";
+
+console.log(accountEmail); // ash@gmail
 
 {
   let accountEmail = "ashirbadash2000@gmail.com";
   var accountPassword = "12345";
+  console.log(accountEmail); //ashirbadash2000@gmail
   console.log(accountPassword);
 }
-var accountPassword = "123";
 console.log(accountPassword);
+var accountPassword = "123";
+var accountPassword = "123"; //var is functional scope
+
+console.log(accountPassword); 
 
 var accountCity = "m";
 

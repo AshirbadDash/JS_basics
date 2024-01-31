@@ -5,7 +5,9 @@ console.log(score);
 const balance =new Number(100);//exponentially declaring the type 
 
 console.log(balance);
-console.log(balance.toString().length);
+console.log(balance.toString().length); //to convert to string and find the length  of the string  3.14==>3
+//
+
 
 console.log(balance.toFixed(2));//to make the precison value fixed
 
@@ -31,7 +33,7 @@ Number.MAX_SAFE_INTEGER; //tells the max safe value
 // console.log(Math.floor(4.9)); //4
 // console.log(Math.sqrt(25)); 
 // console.log(Math.pow(2));
-// console.log(Math.min(2,3,5,8));
+// console.log(Math.min(2,3,5,8)); 
 // console.log(Math.max(2,3,5,9));
 
 console.log(Math.random()); //RANDOM values always between 0-1

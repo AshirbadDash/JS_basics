@@ -2,27 +2,27 @@
 
 //call by value and call by reference
 
-// 7 types :  (call by value means they are copied ad given not the memory address)
+// 7 types :  (call by value means they are copied and given not the memory address)
 
-//String ,Number,Boolean,null(empty),undefined(not initialized),Symbol,BigInt
+//String Number,Boolean,null(empty),undefined(not initialized),Symbol,BigInt
 
 //Reference (non-pirmitive)
 //call by reference :reference are allocated
 
-//Array,Objects,Functions
+//Array,Objects,Functions 
 
 //Javascript is a dynmically typed language
 //type is not defined 
 
-const score = 100;
-const scoreValue = 100.3;
+const score = 100; //number
+const scoreValue = 100.3; //number
 
-const isLoggedIn = false;
-const outsideTemp = null;
+const isLoggedIn = false; //boolean
+const outsideTemp = null; //null
 let userEmail; //value will be undefined 
 
-const id = Symbol("123"); 
-const anotherId = Symbol("123");
+const id = Symbol("123");  //symbol is a unique value
+const anotherId = Symbol("123"); //symbol is a unique value
 
 console.log(id === anotherId);
 
@@ -30,10 +30,11 @@ const bigNumber = 34567898765435678n; //bigint
 
 const heros = ["shaktiman", "naagraj", "doga"]; //array
 
-let myObj = { //object written in curly braces askey value pairs
+let myObj = { //object written in curly braces as key value pairs
   name: "ashirbad",
   age: 22,
 };
+
 
 const myFunction = function () { //functions can be stored in variables in javascript
   console.log("Hello world");
@@ -42,7 +43,7 @@ const myFunction = function () { //functions can be stored in variables in javas
 console.log(typeof bigNumber);
 
 /*
- return datatypes 
+return datatypes 
 
 undefined --> undefined
 Null -->object
@@ -52,7 +53,8 @@ BigNumber -->bigint
 String -->string
 Object -->object
 Object -->function
-Object -->implementation definde may not be undefined,boolean,number,string
+function-->function
+Object -->implementation definded may not be undefined,boolean,number,string
 */
 
 //function returns function only and it is called objectfunction or functionobject 

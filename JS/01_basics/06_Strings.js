@@ -5,12 +5,13 @@ const repoCount = 50;
 // console.log(name + repoCount + " value");
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); //StringInterpolation we can add functions inside {}
+//also called as template literals //backticks are used templating
 
 const gameName = new String("ashirbad-dash"); //object
 
 //string is a object it is stored as keyvalue pairs
 
-console.log(gameName[0]);
+console.log(gameName[0]); // a //indexing can be done 
 console.log(gameName.__proto__); //to see the object {prototype can be acessed}
 
 //String is an object
@@ -46,20 +47,21 @@ console.table({
   typeof_a: typeof a,
   typeof_b: typeof b,
   typeof_j: typeof j,
+  typeof_z: typeof z,
 });
 
 let t = " trim";
-// console.log(t.trim());
-// console.log(t.charAt(2));
-// console.log(t.concat(j));
-// console.log(t.indexOf('t'));
-// console.log(t.lastIndexOf('a'));
-// console.log(t.lastIndexOf('trim'));
-// console.log(t.toUpperCase());
-// console.log(t.toLowerCase());
-// console.log(t.substring());
-// console.log(t.toString());
-// console.log(t.slice(1,3));
+// console.log(t.trim()); //removes the spaces
+// console.log(t.charAt(2)); //returns the character at the index
+// console.log(t.concat(j));//concatenates the string  
+// console.log(t.indexOf('t')); //returns the index of the character 
+// console.log(t.lastIndexOf('a')); //returns the last index of the character
+// console.log(t.lastIndexOf('trim')); //returns the last index of the character
+// console.log(t.toUpperCase()); //converts to uppercase
+// console.log(t.toLowerCase()); //converts to lowercase
+// console.log(t.substring()); //returns the substring
+// console.log(t.toString()); //converts to string
+// console.log(t.slice(1,3)); //returns the sliced string
 
 let results = [
   { operation: "trim", result: t.trim() },
@@ -78,3 +80,4 @@ console.table(results);
 
 console.log("false" == false);
 console.log("false" === false);
+

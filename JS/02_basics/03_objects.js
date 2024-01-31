@@ -38,10 +38,10 @@ jsUser.greeting =function(){
 //function can be stored in a variable  
 
 jsUser.greeting2 =function(){
-    console.log(`hello jsUser ${this.name} `)
+    console.log(`hello jsUser ${this.name} `) //this keyword refers to the object
 }   
 
 
-console.log(jsUser.greeting); //undefined
+console.log(jsUser.greeting); //undefined 
 console.log(jsUser.greeting()); //hello jsUser
 

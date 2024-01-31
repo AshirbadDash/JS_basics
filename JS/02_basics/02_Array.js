@@ -12,9 +12,11 @@ console.log(all_heros) //["Thor,Ironman,Spiderman,Hulk,Captain America","Batman,
 
 
 //spread operator
-const all_heros2=[...marvel_heros,...dc_heros]
+const all_heros2=[...marvel_heros,...dc_heros] //spread operator is used to spread the array elements 
+//it is used to make deep copy of the array elements 
 
 const another_array=[1,2,3,[4,5,6],,7,[6,7,2],[6,7,[4,5]]];
+
 
 const real_another_array= another_array.flat(Infinity)
 console.log(real_another_array) //[1,2,3,4,5,6,7,6,7,2,6,7,4,5];
